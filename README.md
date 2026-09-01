@@ -38,4 +38,4 @@ By the end of the lesson, participants should be able to:
 - `hello.qmd` is a small Quarto example.
 - `Links_etherpad.txt` contains a historical collaboration link.
 
-Open `SSoQE-Species_Distribution_Models.Rproj` in RStudio. Render the Quarto source rather than editing its generated files. The source filename still contains 2025 and should be renamed only as part of a deliberate source-and-link migration, not a README-only update.
+Open `SSoQE-Species_Distribution_Modelling.Rproj` in RStudio. Render the Quarto source rather than editing its generated files. The source filename still contains 2025 and should be renamed only as part of a deliberate source-and-link migration, not a repository-identity update.
