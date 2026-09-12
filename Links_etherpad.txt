@@ -1,7 +1,0 @@
-Etherpad links for SDM I and II
-
-Upload a figure of your SDM
-https://board.net/p/Quantitative_Ecology_SDMs
-
-Pros and cons of correlative SDMs
-https://board.net/p/Quantitative_Ecology_SDMs_pros_cons
