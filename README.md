@@ -25,7 +25,6 @@ Species distribution models connect occurrence data with environmental predictor
 By the end of the lesson, participants should be able to:
 
 - explain what a correlative species distribution model represents;
-- obtain and inspect occurrence and environmental data;
 - fit a simple model such as a generalized linear model;
 - create and interpret spatial predictions;
 - recognize important limitations, biases, and extrapolation risks.
@@ -36,6 +35,5 @@ By the end of the lesson, participants should be able to:
 - `SSoQE_2025_SDMs_introduction.pdf` is a rendered presentation.
 - `SSoQE_SDM_presentation.pdf` contains additional teaching material.
 - `hello.qmd` is a small Quarto example.
-- `Links_etherpad.txt` contains a historical collaboration link.
 
-Open `SSoQE-Species_Distribution_Modelling.Rproj` in RStudio. Render the Quarto source rather than editing its generated files. The source filename still contains 2025 and should be renamed only as part of a deliberate source-and-link migration, not a repository-identity update.
+Open `SSoQE-Species_Distribution_Modelling.Rproj` in RStudio. Open the R Script `scripts/Simple_SDM_BetPen.R` within the project. This will be the basis to read in the data `data/data_SDM.csv` and build a simple SDM.
