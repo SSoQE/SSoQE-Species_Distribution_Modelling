@@ -24,16 +24,16 @@ Species distribution models connect occurrence data with environmental predictor
 
 By the end of the lesson, participants should be able to:
 
-- explain what a correlative species distribution model represents;
+- explain what a species distribution model represents;
 - fit a simple model such as a generalized linear model;
 - create and interpret spatial predictions;
 - recognize important limitations, biases, and extrapolation risks.
 
 ## 📚 Materials
 
-- `SSoQE_2025_SDMs_introduction.qmd` is the current editable presentation source.
-- `SSoQE_2025_SDMs_introduction.pdf` is a rendered presentation.
-- `SSoQE_SDM_presentation.pdf` contains additional teaching material.
-- `hello.qmd` is a small Quarto example.
+- `SSoQE_Simple_SDM_BetPen.R` contains the framework to develop a SDM together in class.
+- `data_SDM.csv` contains occurrence and environmental ready-to-use data for SDM building.
+- `bioclim_data` contains spatial environmental information needed for predicting species' distributions. 
+
 
 Open `SSoQE-Species_Distribution_Modelling.Rproj` in RStudio. Open the R Script `scripts/Simple_SDM_BetPen.R` within the project. This will be the basis to read in the data `data/data_SDM.csv` and build a simple SDM.
