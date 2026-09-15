@@ -1,6 +1,6 @@
 #### Species distribution model of Betula pendula in Germany ####
 
-# aim: build SDM for the tree species Betula penudla using a simple sdm
+# aim: build SDM for the tree species Betula pendula using a simple sdm
 
 # packages ----
 library(terra)
@@ -11,7 +11,7 @@ env <- rast("data/bioclim_data.tif")
 plot(env)
 
 # model ----
-glm_out <- glm(PA ~ wc2.1_30s_bio_4+ wc2.1_30s_bio_9 + wc2.1_30s_bio_4,
+glm_out <- glm(PA ~ wc2.1_30s_bio_4+ wc2.1_30s_bio_9 + wc2.1_30s_bio_14,
                data = dat, family = "binomial")
 
 # projection ----
